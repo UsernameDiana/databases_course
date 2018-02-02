@@ -1,0 +1,6 @@
+123456,{"name":"London", "attractions":["Big Ben"]}
+42,{"name":"Sanfran", "attractions":["Bridge"]}
+12345,{"name":"diana", "age":"222"}
+1,{"name":"daiga", "age":"27"}
+42,{"name":"daiga", "age":"27"}
+nan,{"name":"daiga", "age":"27"}
