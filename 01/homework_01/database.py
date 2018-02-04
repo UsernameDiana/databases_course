@@ -1,26 +1,29 @@
 import sqlite3
 import random
-import time
+import string
 
 conn = sqlite3.connect('database.db')
 c = conn.cursor()
 
+
 def create_table():
-    c.execute('CREATE TABLE IF NOT EXISTS digits ('
-               'time REAL, num REAL)'
-               )
+    c.execute(
+        'CREATE TABLE IF NOT EXISTS symbols (letters TEXT, numbers REAL)'
+    )
 
 
 def set_dynamic_data():
-    t = time.time()
+    char = string.ascii_letters
+    t = ''.join(random.sample(char, 5))
     num = random.randrange(0, 10)
-    c.execute("INSERT INTO digits (time, num) VALUES (?, ?)",
-               (t, num))
+    c.execute(
+        "INSERT INTO symbols (letters, numbers) VALUES (?, ?)", (t, num)
+    )
     conn.commit()
 
 
 def read_db():
-    c.execute('SELECT * FROM digits')
+    c.execute('SELECT * FROM symbols')
     for row in c.fetchall():
         print (row)
 
@@ -28,7 +31,6 @@ def read_db():
 # create_table()
 # for i in range(10):
 #     set_dynamic_data()
-#     time.sleep(1)
 read_db()
 c.close()
 conn.close()
