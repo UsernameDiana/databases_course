@@ -1,19 +1,19 @@
-filename = 'db.txt'
+import sys
+
+file_db = open('db.txt', 'a+')
+
+first_arg = sys.argv[1]
+second_arg = sys.argv[2]
 
 
-def encwrite():
-    db = open(filename,'a')
-    db.write(enc('work') + '\n')
-    db.write(enc('now')+ '\n')
-    db.close()
+def write_to(word1=first_arg, word2=second_arg):
+    file_db.write("{} {}".format(word1, word2))
 
 
-def enc(str):
-    return ' '.join(format(ord(x), 'b') for x in str)
+with open('db.txt', "rb") as binary_file:
+    data = binary_file.read()
+    print(data)
 
 
-with open(filename, 'rb') as r:
-    content = r.read()
-    print(content)
-
-encwrite()
+if __name__ == "__main__":
+    write_to()
