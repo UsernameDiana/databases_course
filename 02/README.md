@@ -1,12 +1,15 @@
 # Analysis of Twitter Data
 
-* Setup:
+### Setup:
 
 1. Follow the steps to get the database and MongoDB:
 https://github.com/datsoftlyngby/soft2018spring-databases-teaching-material/blob/master/lecture_notes/02-Intro_to_MongoDB.ipynb
-2. git clone 
+2. `git clone https://github.com/UsernameDiana/databases_course/tree/master/02`
+3. `pip install pymongo`
+4. In Terminal run `python twitter_queries.py` in the directory where cloned
+file is located
 
-* Queries corresponding to the following questions:
+### Queries corresponding to the following questions:
 
 1. How many Twitter users are in the database?
 2. Which Twitter users link the most to other Twitter users? (top ten.)
