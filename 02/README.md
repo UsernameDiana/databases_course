@@ -14,7 +14,7 @@ file is located
 1. How many Twitter users are in the database?
 2. Which Twitter users link the most to other Twitter users? (top ten.)
 3. Who are the most mentioned Twitter users? (top five.)
-4. Who are the most active Twitter users (top ten)?
+4. Who are the most active Twitter users? (top ten)
 5. Who are the five most negative tweets and the most positive tweets? (five users for each group)
 
 Made in group with Emil Klausen.
