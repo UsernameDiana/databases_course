@@ -16,3 +16,5 @@ file is located
 3. Who are the most mentioned Twitter users? (top five.)
 4. Who are the most active Twitter users (top ten)?
 5. Who are the five most negative tweets and the most positive tweets? (five users for each group)
+
+Made in group with Emil Klausen.
