@@ -11,6 +11,10 @@
 `docker run -p 8888:8888 --name jupyter --link data -v `pwd`:/home/jovyan -it jegp/soft2018-jupyter`<br>
 - use the generated token as the login
 
+if container and data already exists:
+- `docker rm data`<br>
+- `docker rm jupyter`<br>
+- `docker run -p 8888:8888 --name jupyter --link data -it jegp/soft2018-jupyter`<br>
 
 ###### SETUP for running SQL commands using jupyter notebook:
 
