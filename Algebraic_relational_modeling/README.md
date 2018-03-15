@@ -8,7 +8,7 @@
 - `docker exec -it data bash -c "psql -U appdev"`<br>
 - `docker run -p 8888:8888 --name jupyter --link data -it jegp/soft2018-jupyter`
   or <br>
-`docker run -p 8888:8888 -v /vagrant/jupyter:/home/jovyan --name jupyter --link data -it jegp/soft2018-jupyter `<br>
+`docker run -p 8888:8888 --name jupyter --link data -v `pwd`:/home/jovyan -it jegp/soft2018-jupyter`<br>
 - use the generated token as the login
 
 
