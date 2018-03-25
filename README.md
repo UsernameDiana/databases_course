@@ -16,3 +16,4 @@ https://github.com/UsernameDiana/databases_course/tree/master/Algebraic_relation
 https://github.com/UsernameDiana/databases_course/tree/master/Indices_and_Runtimes
 
 ### Grouping and more joins
+https://github.com/UsernameDiana/databases_course/tree/master/Grouping_and_Joins
