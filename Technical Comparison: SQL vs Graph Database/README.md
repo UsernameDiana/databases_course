@@ -24,3 +24,8 @@ the two databases and report the measured results.
    * endorsements of depth five.
 
 ## Results
+
+The difference in graph and relational database is that relational databases
+work with sets while graph databases work with paths. Therefor Graph based
+databases are faster at searching for nested relations, but SQL based databases
+will work faster in on straight value searches and less deep layers.
