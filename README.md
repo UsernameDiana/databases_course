@@ -17,3 +17,8 @@ https://github.com/UsernameDiana/databases_course/tree/master/Indices_and_Runtim
 
 ### Grouping and more joins
 https://github.com/UsernameDiana/databases_course/tree/master/Grouping_and_Joins
+
+### Indices_and_Runtimes
+https://github.com/UsernameDiana/databases_course/blob/master/Indices_and_Runtimes/Materialised_joins.ipynb
+
+###Technical Comparison of an SQL and Graph Database
