@@ -8,6 +8,9 @@ The domain is extracted from OECD data (https://data.oecd.org/) and we'll be
 looking at Gross Domestic Product (GDP), education, and life expectancy over time.
 
 1. Draw a logical data model.
+
+![alt text]()
+
 2. Transfer that logical data model into a physical data model and create the
    necessary tables in PostgreSQL.
 3. Load all the data into your database.
