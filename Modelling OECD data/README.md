@@ -27,23 +27,19 @@ SubjectType VARCHAR
 CREATE TABLE Education(
 location INTEGER REFERENCES Locations(id),
 subject INTEGER REFERENCES Subjects(id),
-Time VARCHAR,
-Value DOUBLE PRECISION
+Time VARCHAR
 );
 
 CREATE TABLE Life(
 location INTEGER REFERENCES Locations(id),
 subject INTEGER REFERENCES Subjects(id),
-Time VARCHAR,
-Value DOUBLE PRECISION
+Time VARCHAR
 );
 
 CREATE TABLE GDP(
 location INTEGER REFERENCES Locations(id),
 subject INTEGER REFERENCES Subjects(id),
-Meassure_Type VARCHAR,
-Time VARCHAR,
-Value DOUBLE PRECISION
+Time VARCHAR
 );
 ```
 
