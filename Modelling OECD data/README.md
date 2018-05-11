@@ -9,7 +9,7 @@ looking at Gross Domestic Product (GDP), education, and life expectancy over tim
 
 1. Entity Relationship Diagram
 
-![diagram link](https://github.com/UsernameDiana/databases_course/blob/master/Modelling%20OECD%20data/ER.pdf)
+![link to diagram](https://github.com/UsernameDiana/databases_course/blob/master/Modelling%20OECD%20data/ER.pdf)
 
 2. Physical Data model
 
