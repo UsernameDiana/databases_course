@@ -3,7 +3,7 @@
 The domain is extracted from OECD data (https://data.oecd.org/) and we'll be
 looking at Gross Domestic Product (GDP), education, and life expectancy over time.
 
-1. Entity Relationship Diagram
+1. Logical Data Model: Entity Relationship Diagram
 
 ![link to diagram](https://github.com/UsernameDiana/databases_course/blob/master/Modelling%20OECD%20data/ER.pdf)
 
@@ -38,6 +38,3 @@ subject INTEGER REFERENCES Subjects(id),
 Time VARCHAR
 );
 ```
-
-3. Find the country whose GDP has grown the most over time and plot the level
-   of education on the x axis and the life expectancy on the y axis.
