@@ -38,3 +38,7 @@ subject INTEGER REFERENCES Subjects(id),
 Time VARCHAR
 );
 ```
+
+3. Least grown country plot of education and life expectancy: Brazil.
+
+![link to plot](https://github.com/UsernameDiana/databases_course/blob/master/Modelling%20OECD%20data/Least%20grown%20country.png)
